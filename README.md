@@ -12,6 +12,8 @@ docker pull myebenn/kleborate:3.2.1
 # Example usage
 docker run --rm -v $(pwd):/data myebenn/kleborate:3.2.1 genome_assembly.fasta
 
+```
+
 🔧 Features
 Based on Kleborate v3.2.1
 
@@ -49,6 +51,8 @@ To confirm successful installation:
 
 ```bash
 docker run --rm myebenn/kleborate:3.2.1 --version
+```
+
 🙋 Contact
 For issues, questions, or further information about Kleborate, please contact the Holt Lab via the official repository:
 
