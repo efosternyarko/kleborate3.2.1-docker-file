@@ -17,6 +17,7 @@ tools:
     registry: dockerhub
     registry_path: myebenn/kleborate
     primaryDescriptorPath: /Dockerfile
+    descriptorType: docker
     authors:
       - name: Mary Maranga
 
