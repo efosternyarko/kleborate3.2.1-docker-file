@@ -44,14 +44,12 @@ If you use Kleborate in your work, please cite:
 
 Lam MMC, Wick RR, Wyres KL, Holt KE. Kleborate: genomic surveillance framework for Klebsiella pneumoniae and related species. bioRxiv (2020). https://doi.org/10.1101/2020.11.06.372678
 
-🧪 Test
+## 🧪 Test
 To confirm successful installation:
 
 ```bash
-
 docker run --rm myebenn/kleborate:3.2.1 --version
-
 🙋 Contact
-For issues, questions, or further information about Kleborate, please contact the **Holt Lab** via the official repository:
+For issues, questions, or further information about Kleborate, please contact the Holt Lab via the official repository:
 
 🔗 https://github.com/klebgenomics/Kleborate
