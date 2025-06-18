@@ -47,10 +47,10 @@ Lam MMC, Wick RR, Wyres KL, Holt KE. Kleborate: genomic surveillance framework f
 🧪 Test
 To confirm successful installation:
 
-bash
-Copy
-Edit
+```bash
+
 docker run --rm myebenn/kleborate:3.2.1 --version
+
 🙋 Contact
 For issues, questions, or further information about Kleborate, please contact the **Holt Lab** via the official repository:
 
