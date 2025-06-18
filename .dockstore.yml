@@ -1,6 +1,5 @@
 version: 1.2
 name: kleborate-ecoli
-author: Mary Maranga
 description: |
   Dockerized version of Kleborate v3.2.1 with extended support for *Escherichia coli*.
   This image enables rapid typing and profiling of both *Klebsiella* and *E. coli* genomes,
@@ -8,9 +7,16 @@ description: |
   Designed for reproducibility and portability in bioinformatics workflows.
 
   Based on the official Kleborate tool and pre-configured for easy use in containerized environments.
+
 toolname: kleborate-ecoli
+
 tools:
-  - subclass: DOCKER
+  - subclass: docker
+    name: kleborate-ecoli
+    namespace: efosternyarko
     registry: dockerhub
-    dockerfile: /Dockerfile
+    registry_path: myebenn/kleborate
+    primaryDescriptorPath: /Dockerfile
+    authors:
+      - name: Mary Maranga
 
