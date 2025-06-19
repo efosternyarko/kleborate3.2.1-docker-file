@@ -7,8 +7,10 @@ description: |
   Designed for reproducibility and portability in bioinformatics workflows.
 
   Based on the official Kleborate tool and pre-configured for easy use in containerized environments.
-
 toolname: kleborate-ecoli
+
+authors:
+  - name: Mary Maranga
 
 tools:
   - subclass: docker
@@ -18,6 +20,15 @@ tools:
     registry_path: myebenn/kleborate
     primaryDescriptorPath: /Dockerfile
     descriptorType: docker
+
+workflows:
+  - subclass: WDL
+    name: kleborate-ecoli-wdl
+    primaryDescriptorPath: /workflows/wf_kleborate_ecoli.wdl
+    testParameterFiles:
+      - /test.wdl.json
+    descriptorType: wdl
     authors:
       - name: Mary Maranga
+	     	
 
